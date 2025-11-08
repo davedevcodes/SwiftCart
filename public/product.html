@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwiftCart Product</title>
+  <link href="output.css" rel="stylesheet">
+  <script defer src="../js/product.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md w-full mb-5">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <h1 class="text-3xl md:text-4xl font-bold text-center md:text-left">
+        Swift<span class="text-orange-500">Cart</span>
+      </h1>
+      <button id="backBtn" class="px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 transition">
+        ← Back to Shop
+      </button>
+    </div>
+  </header>
+
+  <!-- Product Section -->
+  <main class="max-w-6xl mx-auto px-4 md:px-0 mb-10">
+    <div id="productContainer" class="flex flex-col md:flex-row gap-6 bg-white p-4 md:p-6 rounded-xl shadow-md">
+      
+      <img id="productImg" class="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg" src="" alt="Product">
+
+      <div class="flex-1 flex flex-col gap-4">
+        <h1 id="productTitle" class="text-2xl md:text-3xl font-bold"></h1>
+        <p id="productCategory" class="text-sm md:text-base text-gray-500"></p>
+        <p id="productDesc" class="text-gray-700 text-base md:text-lg"></p>
+        <span id="productPrice" class="text-xl md:text-2xl font-semibold">$0.00</span>
+
+        <button id="addToCartBtn" class="px-4 md:px-6 py-2 md:py-3 bg-orange-500 text-black rounded-lg text-base md:text-lg mt-4 hover:bg-orange-600 transition">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer CTA -->
+  <section class="bg-neutral-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 md:px-10 py-8 flex flex-col lg:flex-row justify-between gap-6">
+      
+      <!-- Newsletter -->
+      <div class="flex-1 flex flex-col gap-4">
+        <h1 class="text-3xl md:text-5xl font-semibold mb-4 md:mb-10">
+          Ready To Get <br>Our New Stuff?
+        </h1>
+        <form class="relative flex flex-col sm:flex-row gap-4">
+          <input type="email" placeholder="Your Email" class="flex-1 bg-white text-gray-700 px-4 py-3 rounded-full outline-none">
+          <button type="submit" class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">
+            Send
+          </button>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div class="flex-1 flex flex-col justify-center gap-4">
+        <span class="text-lg font-medium">Shop For Homes And Needs</span>
+        <p class="text-sm md:text-base text-gray-400">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ipsum vel, odio ea quaerat labore omnis quos! Aliquid tempore.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Links & Social -->
+  <footer class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 md:px-10 py-8 flex flex-col md:flex-row justify-between gap-6 text-black">
+      
+      <!-- Links -->
+      <div class="flex flex-col md:flex-row gap-10">
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-semibold">About</h2>
+          <ul class="flex flex-col gap-2.5">
+            <li><a href="#" class="text-gray-400 hover:text-black">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-black">Meet The Team</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-black">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-semibold">Support</h2>
+          <ul class="flex flex-col gap-2.5">
+            <li><a href="#" class="text-gray-400 hover:text-black">Contact Us</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-black">Shipping</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-black">Return</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-black">F&Q</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="flex flex-col gap-4">
+        <span class="text-lg font-medium text-gray-400">Social Media</span>
+        <div class="flex flex-wrap gap-2">
+          <a href="https://linkedin.com/" class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:scale-110 transition">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://instagram.com/" class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:scale-110 transition">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com/" class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:scale-110 transition">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/" class="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:scale-110 transition">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-gray-300 my-6">
+
+    <!-- Bottom Bar -->
+    <div class="max-w-6xl mx-auto px-4 md:px-10 py-4 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-sm">
+      <span>© 2023 SwiftCart. All rights reserved.</span>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-black">Terms of Service</a>
+        <a href="#" class="hover:text-black">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/product.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

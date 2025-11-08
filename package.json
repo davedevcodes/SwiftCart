@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "body-parser": "^2.2.0",
+    "chart.js": "^4.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "stripe": "^19.3.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

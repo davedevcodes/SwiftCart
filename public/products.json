@@ -1,0 +1,130 @@
+[
+  {
+    "id": "p1",
+    "title": "Vintage Camera",
+    "desc": "Classic film camera with retro design and manual controls, perfect for photography enthusiasts.",
+    "price": 129.99,
+    "img": "https://picsum.photos/400?random=1",
+    "category": "Electronics"
+  },
+  {
+    "id": "p2",
+    "title": "Leather Bag",
+    "desc": "Premium genuine leather handbag with multiple compartments for daily use and style.",
+    "price": 89.90,
+    "img": "https://picsum.photos/400?random=2",
+    "category": "Fashion"
+  },
+  {
+    "id": "p3",
+    "title": "Sneakers",
+    "desc": "Lightweight running sneakers with cushioned sole for comfort and performance.",
+    "price": 59.50,
+    "img": "https://picsum.photos/400?random=3",
+    "category": "Fashion"
+  },
+  {
+    "id": "p4",
+    "title": "Sunglasses",
+    "desc": "UV-protection sunglasses with sleek design, ideal for sunny days and outdoor activities.",
+    "price": 24.00,
+    "img": "https://picsum.photos/400?random=4",
+    "category": "Fashion"
+  },
+  {
+    "id": "p5",
+    "title": "Wireless Earbuds",
+    "desc": "High-quality Bluetooth earbuds with deep bass and long battery life for music on the go.",
+    "price": 49.99,
+    "img": "https://picsum.photos/400?random=5",
+    "category": "Electronics"
+  },
+  {
+    "id": "p6",
+    "title": "Wrist Watch",
+    "desc": "Luxury men’s wristwatch with durable strap and elegant analog display for all occasions.",
+    "price": 199.00,
+    "img": "https://picsum.photos/400?random=6",
+    "category": "Fashion"
+  },
+  {
+    "id": "p7",
+    "title": "Nike Sweater",
+    "desc": "Cozy Nike sweater made from soft fabric, perfect for staying warm in cooler weather.",
+    "price": 56.00,
+    "img": "https://picsum.photos/400?random=7",
+    "category": "Fashion"
+  },
+  {
+    "id": "p8",
+    "title": "Silver Necklace",
+    "desc": "Elegant silver cross necklace, stylish accessory for men, suitable for casual and formal wear.",
+    "price": 5.00,
+    "img": "https://picsum.photos/400?random=8",
+    "category": "Fashion"
+  },
+  {
+    "id": "p9",
+    "title": "Scented Candle Set",
+    "desc": "Set of relaxing scented candles, ideal for creating a calm atmosphere in any room.",
+    "price": 29.99,
+    "img": "https://picsum.photos/400?random=9",
+    "category": "Home Goods"
+  },
+  {
+    "id": "p10",
+    "title": "Ceramic Vase",
+    "desc": "Stylish ceramic vase, perfect for decorating living rooms and holding fresh flowers.",
+    "price": 45.00,
+    "img": "https://picsum.photos/400?random=10",
+    "category": "Home Goods"
+  },
+  {
+    "id": "p11",
+    "title": "Wall Art Canvas",
+    "desc": "Modern wall art canvas to enhance your home décor with bold colors and design.",
+    "price": 60.50,
+    "img": "https://picsum.photos/400?random=11",
+    "category": "Home Goods"
+  },
+  {
+    "id": "p12",
+    "title": "Desk Lamp",
+    "desc": "Functional and stylish desk lamp with adjustable brightness, ideal for reading and work.",
+    "price": 35.99,
+    "img": "https://picsum.photos/400?random=12",
+    "category": "Home Goods"
+  },
+  {
+    "id": "p13",
+    "title": "Yoga Mat",
+    "desc": "Durable, non-slip yoga mat, perfect for home workouts, pilates, and stretching exercises.",
+    "price": 20.00,
+    "img": "https://picsum.photos/400?random=13",
+    "category": "Sports and Outdoors"
+  },
+  {
+    "id": "p14",
+    "title": "Dumbbell Set",
+    "desc": "Adjustable dumbbell set for strength training at home, suitable for all fitness levels.",
+    "price": 50.00,
+    "img": "https://picsum.photos/400?random=14",
+    "category": "Sports and Outdoors"
+  },
+  {
+    "id": "p15",
+    "title": "Trekking Backpack",
+    "desc": "Durable hiking backpack with multiple compartments, ideal for outdoor adventures.",
+    "price": 75.00,
+    "img": "https://picsum.photos/400?random=15",
+    "category": "Sports and Outdoors"
+  },
+  {
+    "id": "p16",
+    "title": "Water Bottle",
+    "desc": "Insulated stainless steel water bottle, keeps drinks cold or hot during workouts.",
+    "price": 15.99,
+    "img": "https://picsum.photos/400?random=16",
+    "category": "Sports and Outdoors"
+  }
+]
